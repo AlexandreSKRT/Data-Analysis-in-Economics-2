@@ -1,9 +1,15 @@
+/*----------------------------------------------------------
+
+MODS206 - Pre-Processing : Documentation
+authors : Sukeratha Alexandre, Michaud Jules
+
+----------------------------------------------------------*/
+
 *** Import DataSet ***
 use state_WA_HMDA.dta, clear
 
 *** Label DataSet ***
 label data "HMDA mortgage loan information collected between 2017-2021 in the state of WA."
-
 
 label variable v1 ""
 
@@ -49,7 +55,7 @@ label variable other_nonamortizing_features "whether the contractual terms inclu
 label variable property_value "the value of the property securing the covered loan"
 label variable construction_method "construction method for the dwelling"
 label variable occupancy_type "occupancy type for the dwelling"
-label variable manufactured_home_secured_property_type "whether the covered loan or application is secured by a manufactured home&land"
+* label variable manufactured_home_secured_property_type "whether the covered loan or application is secured by a manufactured home&land" *
 label variable manufactured_home_land_property_interest "the applicant's or borrower's land property interest"
 label variable total_units "number of individual dwelling units of the property securing the covered loan"
 label variable applicant_age "the age of the applicant"
@@ -96,10 +102,10 @@ label variable aus2 "the AUS used by the financial institution to evaluate the a
 label variable aus3 "the AUS used by the financial institution to evaluate the application"
 label variable aus4 "the AUS used by the financial institution to evaluate the application"
 label variable aus5 "the AUS used by the financial institution to evaluate the application"
-label variable denial_reason1 " principal reason, or reasons, for denial"
-label variable denial_reason2 " principal reason, or reasons, for denial"
-label variable denial_reason3 " principal reason, or reasons, for denial"
-label variable denial_reason4 " principal reason, or reasons, for denial"
+label variable denial_reason1 "principal reason, or reasons, for denial"
+label variable denial_reason2 "principal reason, or reasons, for denial"
+label variable denial_reason3 "principal reason, or reasons, for denial"
+label variable denial_reason4 "principal reason, or reasons, for denial"
 
 *** Census fields produced by the U.S. Census Bureau and appended to public HMDA Data ***
 label variable tract_population "total population in tract"
