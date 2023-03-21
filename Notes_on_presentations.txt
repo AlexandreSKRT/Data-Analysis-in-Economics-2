@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------------
+/******************************* List of things to do ******************************/
+-------------------------------------------------------------------------------------
+####################### POINTS TO TACKLE DURING PRESENTATION ########################
+1. Start with litterature
+2. State of the art
+3. Control for bias and multicolinearity
+4. Dummy Variable trap 
+5. Be on point on the course -> create a minute summary 
+6. Joint hypothesis, test for the null effect
+7. Little Stata stats -> min, max, std
+8. Heteroscedaticity
+
+################################ NICE THINGS TO USE #################################
+1. Our motivation began with...
+
+##################################### QUESTIONS #####################################
+1. Are regression already required? Answer: not required 
+
+
+-------------------------------------------------------------------------------------
+/** Questions on the DataSet -> Data Related Questions more than Theory Questions **/
+-------------------------------------------------------------------------------------
+################################## PRESENTATION 1 ###################################
+>> what is this variable about?
+>> CrossSection or panel data? -> our data is more about CrossSection i think
+>> How do you plan to add dummy variables? 
+>> Control for?    
+
+################################## PRESENTATION 2 ###################################
+>> questions to truly understand the aim of the project/ use of the data
+>> why did you chose to analyse the log(salary)? 
+>> again a question on variables
